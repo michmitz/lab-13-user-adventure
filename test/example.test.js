@@ -54,7 +54,7 @@ const test = QUnit.test;
 test('time to test a function', (expect) => {
     //Arrange
     // Set up your arguments and expectations
-    const expected = `<section><div>A Den of Monsters</div><img src="http://www.placekitten.com/300/300/"><form><div>You enter the quest chamber only to be confronted by a hoard of monsters. And they look hungry. What do you do?</div><label><div>Negotiate with them</div><input type="radio" value="negotiate" name="choices"></label><label><div>'Fiiiiiggghhhttt!'</div><input type="radio" value="fight" name="choices"></label><label><div>Run away like good Sir Robin</div><input type="radio" value="run" name="choices"></label><button>Submit</button></form></section>`;
+    const expected = `<section><div>A Den of Monsters</div><img src="http://www.placekitten.com/300/300/"><form><div>You enter the quest chamber only to be confronted by a hoard of monsters. And they look hungry. What do you do?</div><label><div>Negotiate with them</div><input type="radio" value="negotiate" name="choices"></label><label><div>'Fiiiiiggghhhttt!'</div><input type="radio" value="fight" name="choices"></label><label><div>Run away like good Sir Robin</div><input type="radio" value="run" name="choices"></label><button>Submit</button></form></section>`.replace(/\s/g, '');
     
     //Act 
     // Call the function you're testing and set the result to a const
