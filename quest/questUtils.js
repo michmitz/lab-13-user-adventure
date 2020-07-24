@@ -58,6 +58,9 @@ export function renderSection(quest) {
 
         setUser(user);
 
+        const resultsSection = document.getElementById('results-section');
+        resultsSection.classList.remove('hidden');
+
         const resultDiv = document.querySelector('#result');
         resultDiv.textContent = results.result;
 
@@ -66,7 +69,7 @@ export function renderSection(quest) {
         nextButton.classList.remove('hidden');
 
     });
-    
+
     form.append(button);
     section.append(div, img, form);
     return section;

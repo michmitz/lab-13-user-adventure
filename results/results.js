@@ -1,1 +1,2 @@
-console.log('results page!');
+// import { getUser } from '../userUtils.js';
+// import { findById } from '../questUtils.js';
