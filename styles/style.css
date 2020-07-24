@@ -23,6 +23,8 @@ main {
     justify-content: center;
     align-items: center;
     margin-bottom: calc(var(--footer-height));
+    text-align: center;
+    align-items: center;
 }
 
 section {
@@ -40,13 +42,6 @@ section {
     border: solid 2px var(--color1);
 }
 
-
-h2 {
-    font-size: 1.8rem;
-    font-weight: bold;
-}
-
-
 content {
     width: 80%;
 }
@@ -55,11 +50,28 @@ p {
     margin: var(--gutter);
 }
 
-  label {
+label {
       display: block;
+}
 
-  }
-
-  .hidden {
+.hidden {
       display: none;
-  }
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+
+#submit {
+    margin-top: 10px;
+    width: 70px;
+
+}
+
+
+
